@@ -1,20 +1,21 @@
 # Root Account Monitoring with CloudTrail + SNS
 
-## 📌 Overview
-This project is part of my **#100DaysOfCybersecurity Challenge**.  
-The goal is to detect and respond to **AWS root account usage**, which is one of the most sensitive and high-risk actions in any AWS environment; using **CloudTrail, SNS, and EventBridge**.
+## Overview
+This project is part of my **#100DaysOfCybersecurity Challenge**.
+
+The goal is to detect and respond to **AWS root account usage**, which is one of the most sensitive and high-risk actions in any Cloud environment; using **CloudTrail, SNS, and EventBridge**.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
-✅ Simulate sensitive activity from the AWS root account  
-✅ Detect the root account login using **CloudTrail**  
-✅ Trigger an **SNS alert** via **EventBridge** when the root account is used  
+- Simulate sensitive activity from the AWS root account  
+- Detect the root account login using **CloudTrail**  
+- Trigger an **SNS alert** via **EventBridge** when the root account is used  
 
 ---
 
-## 🛠 Tools Used
+## Tools Used
 
 - **AWS Management Console**  
 - **CloudTrail**  
@@ -24,7 +25,7 @@ The goal is to detect and respond to **AWS root account usage**, which is one of
 
 ---
 
-## 📝 Steps & Screenshots
+## Steps & Screenshots
 
 ### **1. Log in Using the Root Account**
 - Performed login using the root account for simulation.
@@ -85,25 +86,25 @@ The goal is to detect and respond to **AWS root account usage**, which is one of
 
 ---
 
-### ✅ Verification 
+### Verification 
 - CloudTrail Logs: Confirmed root account sign-in recorded in CloudTrail.
 - SNS Alert: Email received within seconds of login.
 
 ---
 
-### 📖 What I Learned 
+### What I Learned 
 - Root account usage should always be monitored.
 - CloudTrail + EventBridge + SNS provides near real-time alerting for sensitive actions.
 - Alerts like this are essential for detecting unauthorized root account use.
 
 ---
 
-### 🔗 Next Steps
+### Next Steps
 - Extend this to monitor other sensitive activities (e.g., IAM policy changes).
 
 ---
 
-## ✍ **Author**
+## **Author**
 
 👩‍💻 **Chukwu PraiseGod**  
 Follow my journey: [X](https://x.com/chukwupg) | [LinkedIn](https://linkedin.com/in/chukwupg)  
